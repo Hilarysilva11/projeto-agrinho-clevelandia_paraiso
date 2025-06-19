@@ -1,0 +1,153 @@
+/* Estilo customizado para o site */
+body {
+  font-family: Arial, serif, sans-serif;
+  font-size: 20px;
+}
+
+/* Efeito de hover nas imagens da galeria */
+.effect-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.effect-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Menu mais interativo */
+.menu-interativo .nav-link {
+  position: relative;
+  transition: color 0.3s ease;
+}
+.menu-interativo .nav-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0%;
+  height: 2px;
+  background-color: white;
+  transition: width 0.3s ease;
+}
+.menu-interativo .nav-link:hover {
+  color: #d4f9d4; /* um tom verde claro */
+}
+.menu-interativo .nav-link:hover::after {
+  width: 100%;
+}
+
+/* Degradê para cabeçalho e rodapé */
+.header-gradiente, footer {
+  background: linear-gradient(45deg, #2e7d32, #81c784);
+}
+
+/* Ajuste no tamanho das imagens do carrossel */
+.carousel-inner img {
+  height: 600px; /* altura menor */
+  object-fit: cover;
+}
+
+/* Ajuste de degradê em todo o fundo */
+body {
+  background: linear-gradient(to bottom right, #e8f5e9, #ffffff);
+}
+/* Estilo dos ícones sociais no rodapé */
+.social-icons a {
+  display: inline-block;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+.social-icons a:hover {
+  color: #d4f9d4; /* verde clarinho ao passar o mouse */
+  transform: scale(1.2);
+}
+/* Alinhar imagens dos cards */
+.card-img-top {
+  height: 200px; /* ajuste conforme necessário */
+  object-fit: cover;
+}
+.btn-localizacao {
+  display: none;
+  opacity: 0.8;
+  transition: opacity 0.3s ease;
+}
+
+.card.effect-card:hover .btn-localizacao {
+  display: block;
+}
+/* Gradiente de fundo para o cabeçalho */
+.header-gradiente {
+  background: linear-gradient(135deg, #011109 0%, #80ddb2 100%);
+  transition: background 0.3s ease-in-out;
+}
+
+/* Logo responsiva */
+.logo {
+  width: 80px;
+  height: auto;
+  border-radius: 50%;
+}
+
+/* Menu interativo */
+.menu-interativo .nav-link {
+  position: relative;
+  padding: 0.5rem 1rem;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.menu-interativo .nav-link::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 10%;
+  width: 80%;
+  height: 2px;
+  background-color: #fff;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.3s ease-in-out;
+}
+
+.menu-interativo .nav-link:hover {
+  color: #ffd700; /* Amarelo para destaque */
+  transform: scale(1.1);
+}
+
+.menu-interativo .nav-link:hover::after {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
+/* Sombra suave */
+.header-gradiente,
+.menu-interativo .nav-link {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Tipografia mais elegante */
+body, h1, h2, h3, h4, h5, h6, p {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1, h2 {
+  font-weight: 700;
+}
+
+/* Efeito para cartões */
+.effect-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.effect-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.15);
+}
+
+/* Ajuste para botões de localização */
+.btn-localizacao {
+  transition: background-color 0.3s ease;
+}
+.btn-localizacao:hover {
+  background-color: #2e7d32;
+  color: white;
+}
+
+
+
