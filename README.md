@@ -18,6 +18,7 @@ Metodologia
 - Inclusão de informações detalhadas sobre os pontos turísticos, incluindo fotos, descrições e informações práticas.
 
 Desenvolvimento do Site
+
 O nosso site foi desenvolvido utilizando tecnologias web fundamentais, incluindo HTML, CSS e JavaScript. Essas tecnologias foram escolhidas por sua capacidade de criar interfaces web dinâmicas e responsivas.
 
 Tecnologias Utilizadas:
